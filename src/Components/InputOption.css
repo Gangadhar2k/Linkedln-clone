@@ -1,0 +1,16 @@
+.inputOption{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputOption>p{
+    font-weight: 600;
+    color: gray;
+}
+
+.inputOption:hover{
+    background-color:whitesmoke;
+}
