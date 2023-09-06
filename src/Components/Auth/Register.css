@@ -1,0 +1,47 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    width: 90vw;
+    padding: 10px;
+}
+
+.register>img{
+    object-fit: contain;
+    height: 70px;
+    margin-block: 20px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form>input{
+    height: 30px;
+    width: 250px;
+    margin-block:7px;
+    padding: 5px;
+    font-size: 17px;
+    background: white ;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+button{
+    background-color: blueviolet;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 16px;
+    margin-top: 6px;
+}
